@@ -1,8 +1,8 @@
 function clickMenu(){
   var itens = document.getElementById("itens");
-  if(itens.style.display == 'none'){
-    itens.style.display = 'block';
-  }else{
+  if(itens.style.display == 'block'){
     itens.style.display = 'none';
+  }else{
+    itens.style.display = 'block';
   }
 }
