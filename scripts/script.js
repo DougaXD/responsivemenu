@@ -7,8 +7,9 @@ function clickMenu(){
   }
 }
 function mudouTamanho(){
-  if(window.innerWidth >= 768px){
-    itens.style.display = 'none';
+  var itens = document.getElementById("itens");
+  if(window.innerWidth >= 768){
+    itens.style.display = 'block';
   }else{
     itens.style.display = 'none';
   }
