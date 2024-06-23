@@ -36,7 +36,7 @@ nav > ul > li{
   background-color: rgb(65, 65, 65);
 }
 #itens{
-  display: block;
+  display: none;
 }
 nav > ul > li > a{
   display: block;
