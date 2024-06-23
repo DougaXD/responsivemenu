@@ -1,5 +1,3 @@
-menu = document.getElementById("bmenu");
-itens = document.getElementById("itens");
-function menuHamburguer(){
-  
+function clickMenu(){
+  itens.style.display = 'none';
 }
