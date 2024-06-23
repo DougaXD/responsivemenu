@@ -1,1 +1,16 @@
+@charset "UTF-8"
+{}
+/*Mobile Firs*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, helvetica, sans-serif;
+}
+main{
+  width: 750px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
 
