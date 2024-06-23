@@ -23,6 +23,18 @@ nav > ul > li{
   list-style-type: none;
   border: 1px solid gray;
 }
+#bmenu{
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: rgb(45, 45, 45);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+#bmenu:hover{
+  color: black;
+  background-color: rgb(65, 65, 65);
+}
 nav > ul > li > a{
   display: block;
   text-decoration: none;
