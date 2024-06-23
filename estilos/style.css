@@ -7,10 +7,21 @@
   padding: 0px;
   font-family: Arial, helvetica, sans-serif;
 }
+body{
+  background-color: lightgray;
+}
 main{
+  display: flex;
+  justify-content: center;
   width: 750px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 15px;
+}
+h1{
+  text-align: center;
+  color: black;
+  background-color: gray;
+  
 }
 
