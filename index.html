@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu Responsivo</title>
   <link rel="stylesheet" href="estilos/style.css" media="all">
+  <link rel="stylesheet" href="estilos/media-queries" media="screen">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
+<body onresize="">
   <header>
     <h1>Meu Site</h1>
+    <span id="bmenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     <nav id="menu">
-      <span id="bmenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+      
       <ul id="itens">
         <li id="op1"><a href="#">Opção 1</a></li>
         <li id="op2"><a href="#">Opção 2</a></li>
