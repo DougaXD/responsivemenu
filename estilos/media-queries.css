@@ -1,0 +1,14 @@
+@charset "UTF-8"
+{}
+/*Media Queries*/
+@media screen and (min-width: 768px){
+  #bmenu{
+    display: none;
+  }
+  #itens{
+    display: block;
+  }
+  nav > ul > li{
+    display: inline-block;
+  }
+}
