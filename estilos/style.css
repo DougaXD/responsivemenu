@@ -16,7 +16,7 @@ h1{
   background-color: gray;
 }
 main{
-  display: flex;
+  display: block;
   justify-content: center;
   width: 750px;
   padding: 10px;
@@ -25,8 +25,4 @@ main{
   background-color: white;
   border-radius: 15px;
 }
-p{
-  display: block;
-}
-
 
