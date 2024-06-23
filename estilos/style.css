@@ -35,6 +35,9 @@ nav > ul > li{
   color: black;
   background-color: rgb(65, 65, 65);
 }
+#itens{
+  display: block;
+}
 nav > ul > li > a{
   display: block;
   text-decoration: none;
