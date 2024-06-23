@@ -1,4 +1,4 @@
-itens = document.getElementById("itens").this();
 function clickMenu(){
-  itens.style.display = 'none';
+  var itens = document.getElementById("itens");
+  itens.style.display = 'block';
 }
