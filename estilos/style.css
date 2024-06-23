@@ -10,27 +10,42 @@
 body{
   background-color: lightgray;
 }
-h1{
-  text-align: center;
-  color: black;
+header{
+  display: block;
   background-color: gray;
+  justify-content: center;
+  text-align: center;
 }
-#menu{
-  display: flex;
+h1{
+  padding: 10px 0px;
+}
+nav > ul > li{
+  list-style-type: none;
+  border: 1px solid gray;
+}
+nav > ul > li > a{
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: rgb(70, 70, 70);
+}
+nav > ul > li > a:hover{
+  background-color: rgb(110, 110, 110);
 }
 main{
   display: block;
-  justify-content: center;
-  text-align: justify;
-  width: 600px;
+  width: 90vw;
   padding: 10px;
-  margin-top: 10px;
   margin: auto;
+  margin-top: 10px;
   background-color: white;
   border-radius: 15px;
 }
+h2{
+  text-align: center;
+}
 p{
-  padding: 3px;
-  
+  margin: 10px 0px;
 }
 
